@@ -1,0 +1,12 @@
+const ProductCard = ({ product }) => {
+  return (
+    <div className="product-card">
+      <img src={product.image} alt="" />
+      <h3>{product.name}</h3>
+      <p>{product.price}</p>
+      <button className="btn">Add to Cart</button>
+    </div>
+  );
+};
+
+export default ProductCard;
