@@ -1,8 +1,18 @@
 function App() {
   return (
-    <div style={{ padding: "40px", textAlign: "center" }}>
-      <h1>🚀 E-Commerce UI is Live!</h1>
-      <p>If you see this, deployment is working correctly.</p>
+    <div
+      style={{
+        minHeight: "100vh",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        fontSize: "32px",
+        fontWeight: "bold",
+        background: "linear-gradient(135deg, #667eea, #764ba2)",
+        color: "white"
+      }}
+    >
+      🚀 E-Commerce UI is Working!
     </div>
   );
 }
